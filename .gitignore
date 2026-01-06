@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Conda / env
+.env
+.venv
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+
+# Data (do not commit big files)
+data/raw/
+data/processed/
+
+# Outputs
+figures/tmp/
+reports/tmp/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,19 @@
+name: safeharbor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - pybigwig
+  - pyranges
+  - pip
+  - pip:
+      - shap
+      - xgboost
+      - tqdm
