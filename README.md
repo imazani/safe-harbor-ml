@@ -16,6 +16,9 @@ This project tests the hypothesis that known safe harbor loci occupy a distinct 
 
 This work does not claim to identify clinically validated integration sites, but instead provides a computational framework for hypothesis generation and experimental design in genome engineering.
 
+### Labeling note: "safe harbor" exits on a specturm
+In practice, genomic “safe harbor” behavior exists on a spectrum rather than a strict binary: integration outcomes can vary by cell type, lineage, chromatin remodeling, and assay context. To reduce label noise in this initial study, the positive class is restricted to a small set of canonical, high-confidence loci commonly used in genome engineering. The pipeline is designed to support future extensions such as tiered positives (high- vs moderate-confidence) and cell-type–specific scoring. 
+
 ## Environment
 - Python 3.11
 - Conda env: `safeharbor`
