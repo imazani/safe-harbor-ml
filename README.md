@@ -4,7 +4,7 @@ Predict epigenetically stable genomic loci ("safe harbors") for transgene integr
 
 ## Project Motivation and Rationale
 
-Genome engineering workflows often rely on a small number of empirically identified “safe harbor” loci—genomic regions that support stable transgene expression without disrupting endogenous gene regulation. While these loci (e.g., AAVS1, CCR5) are widely used, they were discovered experimentally rather than through a systematic, genome-wide approach.
+Genome engineering workflows often rely on a small number of empirically identified “safe harbor” loci genomic regions that support stable transgene expression without disrupting endogenous gene regulation. While these loci (e.g., AAVS1, CCR5) are widely used, they were discovered experimentally rather than through a systematic, genome-wide approach.
 
 A defining characteristic of safe harbor loci is their regulatory stability: they tend to reside in chromatin environments that are insulated from strong regulatory activity and remain relatively stable across cell types. Public epigenomic resources such as ENCODE provide genome-wide measurements of chromatin accessibility, histone modifications, and regulatory states that reflect this functional context.
 
